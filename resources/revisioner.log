@@ -1,0 +1,21 @@
+HOST : localhost
+TRANSPORT_PORT : 9443
+CLIENT_KEY : v8VPtH0r769Rfi_ZYwosspUeTBca
+CLIENT_SECRET : FSBRCqTdBu9alVlceh2c8JQDJVIa
+USERNAME : admin
+PASSWORD : admin
+API_LIMIT : 250
+PUBLISHER_CONTEXT : api/am/publisher/v4/apis
+NEW_GATEWAY_NAME : XYZ
+OLD_GATEWAY_NAME : Default
+ACCESS TOKEN : eyJ4NXQiOiJPREJtTVRVMFpqSmpPREprTkdZMVpUaG1ZamsyWVRZek56UmpZekl6TVRCbFlqRTBNV0prWTJJeE5qZzNPRGRqWVdRNVpXWmhOV0kwTkRBM1pqTTROUSIsImtpZCI6Ik9EQm1NVFUwWmpKak9ESmtOR1kxWlRobVlqazJZVFl6TnpSall6SXpNVEJsWWpFME1XSmtZMkl4TmpnM09EZGpZV1E1WldaaE5XSTBOREEzWmpNNE5RX1JTMjU2IiwidHlwIjoiYXQrand0IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI0Y2ExZmZjZi1lYTdkLTQ3OTUtYTIyZS04YmQ2ZTkyMzM5ODAiLCJhdXQiOiJBUFBMSUNBVElPTl9VU0VSIiwiYXVkIjoidjhWUHRIMHI3NjlSZmlfWll3b3NzcFVlVEJjYSIsIm5iZiI6MTczMTA3MzE3NywiYXpwIjoidjhWUHRIMHI3NjlSZmlfWll3b3NzcFVlVEJjYSIsInNjb3BlIjoiYXBpbTphZG1pbiBhcGltOmFwaV9jcmVhdGUgYXBpbTphcGlfZGVsZXRlIGFwaW06YXBpX2dlbmVyYXRlX2tleSBhcGltOmFwaV9pbXBvcnRfZXhwb3J0IGFwaW06YXBpX21hbmFnZSBhcGltOmFwaV9wcm9kdWN0X2ltcG9ydF9leHBvcnQgYXBpbTphcGlfcHVibGlzaCBhcGltOmFwaV92aWV3IGFwaW06YXBwX2ltcG9ydF9leHBvcnQgYXBpbTpjbGllbnRfY2VydGlmaWNhdGVzX2FkZCBhcGltOmNsaWVudF9jZXJ0aWZpY2F0ZXNfdXBkYXRlIGFwaW06Y2xpZW50X2NlcnRpZmljYXRlc192aWV3IGFwaW06Y29tbWVudF92aWV3IGFwaW06Y29tbWVudF93cml0ZSBhcGltOmNvbW1vbl9vcGVyYXRpb25fcG9saWN5X21hbmFnZSBhcGltOmNvbW1vbl9vcGVyYXRpb25fcG9saWN5X3ZpZXcgYXBpbTpkb2N1bWVudF9jcmVhdGUgYXBpbTpkb2N1bWVudF9tYW5hZ2UgYXBpbTplcF9jZXJ0aWZpY2F0ZXNfYWRkIGFwaW06ZXBfY2VydGlmaWNhdGVzX3VwZGF0ZSBhcGltOmVwX2NlcnRpZmljYXRlc192aWV3IGFwaW06ZXh0ZXJuYWxfc2VydmljZXNfZGlzY292ZXIgYXBpbTptZWRpYXRpb25fcG9saWN5X2NyZWF0ZSBhcGltOm1lZGlhdGlvbl9wb2xpY3lfbWFuYWdlIGFwaW06bWVkaWF0aW9uX3BvbGljeV92aWV3IGFwaW06cHViX2FsZXJ0X21hbmFnZSBhcGltOnB1Ymxpc2hlcl9zZXR0aW5ncyBhcGltOnNoYXJlZF9zY29wZV9tYW5hZ2UgYXBpbTpzdWJzY3JpcHRpb25fYmxvY2sgYXBpbTpzdWJzY3JpcHRpb25fbWFuYWdlIGFwaW06c3Vic2NyaXB0aW9uX3ZpZXcgYXBpbTp0aHJlYXRfcHJvdGVjdGlvbl9wb2xpY3lfY3JlYXRlIGFwaW06dGhyZWF0X3Byb3RlY3Rpb25fcG9saWN5X21hbmFnZSIsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0Ojk0NDMvb2F1dGgyL3Rva2VuIiwiZXhwIjoxNzMxMDc2Nzc3LCJpYXQiOjE3MzEwNzMxNzcsImp0aSI6ImYwMzhjZDExLWI2ZmQtNDM1Zi05ZWVkLTNhYTA2MDRjOTk3OSIsImNsaWVudF9pZCI6InY4VlB0SDByNzY5UmZpX1pZd29zc3BVZVRCY2EifQ.t2dLPYTOb4pli704Wg6uirs1LG7Ay0HFGil8qWnUQN7KzXKSUTpL-GVVctrl7gFGSZhe5xzQNcPwUpjpXpJ5RUMDi0bzFohSwJ7yxEoRCntVerA38N7ij_az7J-Ayycr6k79xFvB2oosk1EdBaXp-60n3FyKs85U7Xh53D-uIzn8F8RjH5fWV1oa-e_BClB_kyDEqvD69NYddrHIBGs749pxzvOaf1fkgZcYauz2a75QfVDD1SFN9I0xu1qCyeZEGTXgUWyTlcmpulchkeGg7oT3B3BivSDof95FCwQ_Ge904dWd2HwACNFauCeUXn2lref5P0drEhnMAI3grOF4yg
+*************************************************************
+*************************************************************
+Total Number of APIs to be changed : 2
+*************************************************************
+Working on API Number : 0 : 70819b5c-6390-4811-af1e-8ba06110f41d
+Undeploy Revision Operation Status : true
+Waiting for revision to get undeployed in the Default Gateway
+Working on API Number : 1 : d9d92882-040a-4791-b80c-393ee2e53193
+Undeploy Revision Operation Status : true
+Waiting for revision to get undeployed in the Default Gateway

@@ -1,4 +1,4 @@
-# wso2-api-revisioner
+# wso2-api-revision-undeployer
 
 ### Recommendations for building
 - Java 1.8+

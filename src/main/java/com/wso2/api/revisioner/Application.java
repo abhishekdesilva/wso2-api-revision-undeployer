@@ -618,13 +618,19 @@ public class Application {
                         JSONObject jsonObject1 = (JSONObject) jsonArray.get(i);
                         JSONArray deploymentInfoArr = (JSONArray) jsonObject1.get("deploymentInfo");
                         if (deploymentInfoArr != null && deploymentInfoArr.length() > 0) {
-                            JSONObject jsonObject2 = (JSONObject) deploymentInfoArr.get(0);
-                            GATEWAY_NAME = jsonObject2.getString("name");
-                            VHOST = jsonObject2.getString("vhost");
-                            DISPLAY_ON_DEV_PORTAL = jsonObject2.getBoolean("displayOnDevportal");
-                            if (jsonObject2.getString("name").equals(OLD_GATEWAY_NAME)) {
-                                return jsonObject1.getString("id");
+
+                            for(int k=0; k<deploymentInfoArr.length(); k++){
+                                JSONObject jsonObject2 = (JSONObject) deploymentInfoArr.get(k);
+                                GATEWAY_NAME = jsonObject2.getString("name");
+                                System.out.println("name ===== : " + jsonObject2.getString("name"));
+                                VHOST = jsonObject2.getString("vhost");
+                                DISPLAY_ON_DEV_PORTAL = jsonObject2.getBoolean("displayOnDevportal");
+                                if (jsonObject2.getString("name").equals(OLD_GATEWAY_NAME)) {
+                                    System.out.println("id ===== : " + jsonObject1.getString("id"));
+                                    return jsonObject1.getString("id");
+                                }
                             }
+                            
                         } else {
                             GATEWAY_NAME = NEW_GATEWAY_NAME;
                             VHOST = "localhost";
